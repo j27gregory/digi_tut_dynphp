@@ -37,7 +37,7 @@
     <div class="navbar-collapse collapse">
     	<div class="container">
    		<ul class="nav navbar-nav">
-   			
+   			<!-- dynamic navigation; need to function out -->
    			<?php
    				$q = "SELECT * FROM site_page";
 				$r = mysqli_query($dbc, $q);
@@ -48,7 +48,7 @@
 				
 				<?php } ?>
 				
-				
+			
             <!--<li<?php if($pageid == 1) { echo ' class="active"'; } ?>><a href="index.php?page=1">home</a></li>
             <li<?php if($pageid == 2) { echo ' class="active"'; } ?>><a href="about.php?page=2">about</a></li>
             <li<?php if($pageid == 3) { echo ' class="active"'; } ?>><a href="contact.php?page=3">contact</a></li>-->
